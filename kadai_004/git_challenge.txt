@@ -1,1 +1,19 @@
+# git_challenge ローカルリポジトリの作成
+cd Desktop
+mkdir git_challenge
+cd git_challenge
+git init
 
+
+# hello_world.txtのファイル作成
+echo "Hello, world!" >> hello_world.txt
+echo "こんにちは、世界！" >> hello_world.txt
+
+# hello_world.txtの2回コミット
+git status
+git add .
+git commit -m "New file created"
+
+
+# コミット後の変更履歴を表示
+git log --oneline
